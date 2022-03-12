@@ -177,7 +177,7 @@ function UILibrary.Load(GUITitle)
 	
 	NewInstance = Instance.new("ScreenGui")
 	NewInstance.Name = GUITitle
-	NewInstance.Parent = TargetedParent
+	NewInstance.Parent = Player:WaitForChild("PlayerGui")
 	
 	ContainerFrame = Frame()
 	ContainerFrame.Name = "ContainerFrame"
